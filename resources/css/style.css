@@ -65,11 +65,18 @@ a:hover {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.chapter-menu {
+	cursor: pointer;
+	display: inline-block;
+	transition: 0.8s;
+	overflow: hidden;
+	margin-bottom: -35px;
+}
 .chapter-number {
-	display: none;
+	transform: translateY(30px);
+	transition: 1s;
 }
 .chapter-header-wrapper {
-	cursor: pointer;
 	background-color: #EEE;
 	padding: 5px;
 	font-size: 20px;
