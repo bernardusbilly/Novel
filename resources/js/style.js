@@ -4,7 +4,7 @@ $(window).ready(function() {
 
 		if (hideChapter == true) {
 			$(".chapter-menu").css("transform", "rotateX(180deg)");
-			$(".chapter-menu").css("margin-bottom", "0");
+			$(".chapter-menu").css("margin-bottom", "-6px");
 			$(".chapter-number").css("transform","translateY(0px)");
 			hideChapter = false;
 		} else {
